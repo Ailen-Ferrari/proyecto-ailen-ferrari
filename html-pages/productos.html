@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UN PEDACITO DE CHOCO</title>
+    <link rel="stylesheet" href="../css/style.css">
     <!--bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
     <!--animaciones aos-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
@@ -15,33 +15,29 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark" data-aos="zoom-in">
+        <nav class="navbar navbar-expand-lg bg-black" data-aos="zoom-in">
             <div class="container">
              <a class="navbar-brand" href="#"><img src="../assets/logo-negro.jpg" alt=""></a>
-             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
              </button>
-
-             <div class="texto-intro">
-              <h1 class="text-white">UN   PEDACITO   DE   CHOCOLATE</h1>
-            </div>
 
              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="inicio nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="../proyecto-ailen-ferrari/html-pages/productos.html">Productos</a>
+                    <a class="producto nav-link active text-white" aria-current="page" href="../proyecto-ailen-ferrari/html-pages/productos.html">Productos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="../html-pages/eventos.html">Eventos</a>
+                    <a class="eventos nav-link text-white" href="../html-pages/eventos.html">Eventos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="../html-pages/equipo.html">Equipo</a>
+                    <a class="equipo nav-link text-white" href="../html-pages/equipo.html">Equipo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="../html-pages/ubicacion.html">Ubicación</a>
+                    <a class="contacto nav-link text-white" href="../html-pages/ubicacion.html">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -50,13 +46,12 @@
 
       <hr class="m-0">
 
-    <main>
+    <main class="fondo-main">
         <!--ACA COMIENZAN MIS TARJETAS TORTAS CLASICAS-->
         <div class="container-cards text-center mt-3">
             <h3>TORTAS CLASICAS</h3>
-
-            <div class="row mt-2">
-
+          
+          <div class="row mt-2">    
                 <div class="col-xs-12 col-md-4 col-lg-4">
                     <div class="card" style="width: 18rem;">
                         <img src="../assets/brownie.jpeg" class="card-img-top" alt="...">
@@ -67,6 +62,7 @@
                         </div>
                     </div>
                 </div>
+          
 
                 <div class="col-xs-12 col-md-4 col-lg-4">
                     <div class="card" style="width: 18rem;">
@@ -89,7 +85,8 @@
                         </div>
                     </div>
                     
-                </div>
+                  </div>
+          </div>
                  <!--ACA COMIENZAN MIS TARJETAS TORTAS CUMPLE-->       
                 <h3>TORTAS CUMPLE</h3>
 
@@ -147,11 +144,10 @@
 
        <hr class="m-0">
 
-
     <footer>
         
-        <div class="containter-fluid">
-            <div class="row p-5 bg-dark text-white text-center" data-aos="zoom-in">
+        <div class="container-fluid">
+            <div class="row p-5 bg-black text-white text-center" data-aos="zoom-in">
                 <div class="col-xs-12 col-md-4 col-lg-4">
                     <p class="h3">SEGUINOS EN</p>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -159,7 +155,6 @@
                       </svg>
                     <a class="text-light text-decoration-none" href="http://www.instagram.com/unpedacitodechoco/">INSTAGRAM</a>
                 </div>
-              
 
                 <div class="col-xs-12 col-md-4 col-lg-4">
                     <p class="h3">CONTACTO</p>
@@ -178,14 +173,6 @@
         </div>
 
     </footer>
-
-
-
-
-
-
-
-
 
     <!--bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
